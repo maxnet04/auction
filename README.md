@@ -42,14 +42,16 @@ Para essa tarefa, você utilizará o go routines e deverá se concentrar no proc
 
   1. Clonar o Repositório:
 
-  ```git clone https://github.com/maxnet04/auction.git```
+  ```bash
+  git clone https://github.com/maxnet04/auction.git
+  ```
 
 
   2. Rode o docker para buildar a imagem gerando o container com a aplicação:
 
-  ```docker-compose up```
-
-### Como testar localmente:
+```bash
+docker-compose up
+```
 
 Porta: HTTP server on port :8080
 
@@ -62,4 +64,6 @@ Porta: HTTP server on port :8080
 
 #### Para testar execute o comando abaixo:
 
-```go test ./internal/infra/database/auction ```
+```bash
+go test ./internal/infra/database/auction 
+```
