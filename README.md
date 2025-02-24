@@ -40,14 +40,17 @@ Para essa tarefa, você utilizará o go routines e deverá se concentrar no proc
 - [GO](https://golang.org/doc/insttall) 1.17 ou superior
 - [Docker](https://docs.docker.com/get-docker/)
 
-  1. Clonar o Repositório:~
+  1. Clonar o Repositório:
+
   ```git clone https://github.com/maxnet04/auction.git```
 
 
-  2. Rode o docker para buildar a imagem gerando o container com a aplicação e o redis:
+  2. Rode o docker para buildar a imagem gerando o container com a aplicação:
+
   ```docker-compose up```
 
 ### Como testar localmente:
+
 Porta: HTTP server on port :8080
 
 ### Orientações
