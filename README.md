@@ -50,7 +50,7 @@ Para essa tarefa, você utilizará o go routines e deverá se concentrar no proc
 ### Como testar localmente:
 Porta: HTTP server on port :8080
 
-### ORIENTAÇÕES
+### Orientações
 
 - a execução inicia uma *goroutine* que a cada intervalo fecha leilões abertos de acordo com o timestamp do leilão
 - essa função é `StartAuctionExpirationScheduler` em `internal/infra/database/auction/create_auction.go`
